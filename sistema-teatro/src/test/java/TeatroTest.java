@@ -11,12 +11,6 @@ import teatro.teatros.service.TeatroFacade;
 @AutoConfigureMockMvc
 public class TeatroTest {
 
-    @Autowired
-    private MockMvc mockMvc;
-
-    @Autowired
-    private ObjectMapper objectMapper;
-
     private TeatroFacade servico;
 
     @Test
